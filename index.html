@@ -13,29 +13,55 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
         integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          colors: {
-            clifford: '#da373d',
-          }
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
         }
-      }
-    }
-  </script>
+    </script>
 
 
 
 </head>
 
 <body>
-    <header>
-        <div class="container">
-
+    <!-- hader start -->
+    <header class="md:py-20 bg-white-100 ">
+        <div class="container max-w-screen-lg mx-auto">
+            <div class="content lg:flex justify-between items-center gap-8 mx-6">
+            <!-- text content -->
+            <div class="text-content ">
+                <h1 class="text-7xl font-bold mb-7">It's good <br> tea time at The <br> Tea House</h1>
+                    <p class="text-lg text-[#777777] font-medium">Tea and Botanical Solutions Supplier Give Optimum <br> Satisfaction To Your Taste Buds.</p>
+                    <div class="btn my-6">
+                        <a class="p-4 bg-gradient-to-b from-[#FF0000] to-[#FF8938] rounded-lg" href="#"><button class="text-white text-xl font-semibold">Explore More 
+                                
+                            <img class="inline ml-1" src="images/arrow.png" alt="">
+                        </button>
+                        </a>
+                    </div>
+                </div>
+                <!-- image content -->
+                <div class="image flex-1 relative text-left">
+                    <img src="images/banner.png" alt="">
+                    <div class="text-button absolute bottom-0 left-9 lg:left-12 bg-white flex gap-3 justify-center items-center px-5 py-4 rounded-xl shadow-lg">
+                        <i class="fa-solid fa-star text-[#FFF082] text-4xl"></i>
+                        <div class="text">
+                        <h1 class="text-3xl font-bold">5.00</h1>
+                        <p class="text-4 font-semibold text-[#777777]">Trust Pilot Ratings</p>
+                    </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
+    <!-- hader end -->
     <main></main>
     <footer></footer>
 </body>
